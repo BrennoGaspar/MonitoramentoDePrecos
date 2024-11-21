@@ -16,6 +16,6 @@ try:
     os.system('cls')
     print(f'O valor do Headset Gamer Razer Kaira X na Kabum está saindo atualmente por: {pesquisa.getText()}')
 except KeyboardInterrupt:
-    print(f'Você cancelou a pesquisa.')
+    print(f'Você cancelou a pesquisa!')
 except Exception as err: 
     print(f'Algo deu errado. Erro: {err}')
